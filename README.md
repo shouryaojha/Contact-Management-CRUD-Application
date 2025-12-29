@@ -26,4 +26,57 @@ The application follows a clean layered architecture and includes a simple, resp
 ---
 
 ## 📂 Project Structure
+contact-management
+│
+├── src/main/java/com/example/contact
+│ ├── ContactManagementApplication.java
+│ ├── controller
+│ │ └── ContactController.java
+│ ├── service
+│ │ └── ContactService.java
+│ ├── repository
+│ │ └── ContactRepository.java
+│ └── model
+│ └── Contact.java
+│
+├── src/main/resources
+│ ├── static
+│ │ ├── index.html
+│ │ ├── style.css
+│ │ └── script.js
+│ └── application.properties
+│
+└── pom.xml
+
+
+---
+
+## 🌐 REST API Endpoints
+
+| HTTP Method | Endpoint | Description |
+|------------|----------|-------------|
+| POST | `/contacts` | Add a new contact |
+| GET | `/contacts` | Get all contacts |
+| PUT | `/contacts/{id}` | Update an existing contact |
+| DELETE | `/contacts/{id}` | Delete a contact |
+
+---
+
+## 🖥️ Frontend Features
+
+- Add new contact
+- View all contacts
+- Edit and update contact details
+- Delete contact
+- Clean and responsive UI
+- Real-time update without page reload
+
+---
+
+## ⚙️ Configuration
+
+The application runs on **port 8082**.
+
+```properties
+server.port=8082
 
