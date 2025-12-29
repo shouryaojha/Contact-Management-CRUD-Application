@@ -77,7 +77,7 @@ contact-management
 
 The application runs on **port 8082**.
 
-```properties
+properties
 server.port=8082
 
 ▶️ How to Run the Project
