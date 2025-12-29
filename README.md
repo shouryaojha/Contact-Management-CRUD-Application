@@ -80,3 +80,58 @@ The application runs on **port 8082**.
 ```properties
 server.port=8082
 
+▶️ How to Run the Project
+
+Clone the repository:
+
+git clone <your-github-repo-url>
+
+
+Open the project in IntelliJ IDEA
+
+Run:
+
+ContactManagementApplication.java
+
+
+Open browser:
+
+http://localhost:8082/index.html
+
+🧪 Testing
+
+All APIs are tested using Postman
+
+Frontend communicates with backend using Fetch API
+
+In-memory storage is used for simplicity during lab execution
+
+🧠 Design Explanation
+
+The project follows a layered architecture:
+
+Controller Layer: Handles HTTP requests
+
+Service Layer: Contains business logic
+
+Repository Layer: Manages data storage
+
+Model Layer: Defines data structure
+
+This ensures modularity, readability, and easy future enhancement.
+
+🚀 Future Enhancements
+
+Database integration using JPA and MySQL
+
+Input validation
+
+Search and pagination
+
+Authentication and authorization
+
+👨‍💻 Author
+
+Shourya
+B.Tech CSE (AI)
+KIET Group of Institutions
